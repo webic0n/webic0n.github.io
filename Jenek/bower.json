@@ -1,0 +1,22 @@
+{
+  "name": "Jenek",
+  "version": "0.0.0",
+  "authors": [
+    "WebDevCoder <webdevcoder@mail.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "3.3.1"
+  },
+  "resolutions": {
+    "jquery": "3.3.1"
+  }
+}
