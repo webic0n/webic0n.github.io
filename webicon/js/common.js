@@ -69,7 +69,7 @@ for (var i = 0; i < pathEls.length; i++) {
             this.settings = {
                 animation: {
                     slides: {
-                        duration: 600,
+                        duration: 1000,
                         easing: 'easeOutQuint'
                     },
                     shape: {
@@ -106,19 +106,19 @@ for (var i = 0; i < pathEls.length; i++) {
             this.DOM.svg.innerHTML = `
                 <defs>
                 <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#2f0028">
+                    <stop offset="0%" stop-color="#090025">
                         <!--animate attributeName="stop-color" values="#ED4264; #FFEDBC; #ED4264" dur="3s" repeatCount="indefinite"></animate-->
                     </stop>
-                    <stop offset="25%" stop-color="#250027">
+                    <stop offset="25%" stop-color="#130026">
                         <!--animate attributeName="stop-color" values="#ED4264; #FFEDBC; #ED4264" dur="3s" repeatCount="indefinite"></animate-->
                     </stop>
                     <stop offset="50%" stop-color="#1c0027">
                         <!--animate attributeName="stop-color" values="#ED4264; #FFEDBC; #ED4264" dur="3s" repeatCount="indefinite"></animate-->
                     </stop>
-                    <stop offset="75%" stop-color="#130026">
+                    <stop offset="75%" stop-color="#250027">
                         <!--animate attributeName="stop-color" values="#ED4264; #FFEDBC; #ED4264" dur="3s" repeatCount="indefinite"></animate-->
                     </stop>
-                    <stop offset="100%" stop-color="#090025">
+                    <stop offset="100%" stop-color="#2f0028">
                         <!--animate attributeName="stop-color" values="#ED4264; #FFEDBC; #ED4264" dur="3s" repeatCount="indefinite"></animate-->
                     </stop>
                 </linearGradient>
@@ -277,3 +277,13 @@ for (var i = 0; i < pathEls.length; i++) {
     new Slideshow(document.querySelector('.slideshow'));
     imagesLoaded('.slide__img', { background: true }, () => document.body.classList.remove('loading'));
 };
+
+//reviews
+
+var slideEl = $(".slide--parent");
+
+slideEl.flickity({
+    imagesLoaded: true,
+    wrapAround: true,
+    pauseAutoPlayOnHover: false,
+});
