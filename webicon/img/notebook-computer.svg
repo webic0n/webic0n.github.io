@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Слой_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#8c1f95;stroke-miterlimit:10;}
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+	</foreignObject>
+	<g i:extraneous="self">
+		<line class="st0" x1="67.8" y1="105" x2="443.4" y2="105"/>
+		<line class="st0" x1="58.6" y1="117.1" x2="58.6" y2="370.7"/>
+		<line class="st0" x1="69.2" y1="108.4" x2="441.5" y2="108.4"/>
+		<g id="XMLID_1_">
+			<g>
+			</g>
+			<g>
+				<line class="st0" x1="7.5" y1="379.4" x2="504.2" y2="378.9"/>
+				<line class="st0" x1="429" y1="388.5" x2="82.7" y2="388.5"/>
+			</g>
+		</g>
+		<line class="st0" x1="504.2" y1="382" x2="504.2" y2="378.7"/>
+		<line class="st0" x1="7.5" y1="379.1" x2="7.5" y2="382.3"/>
+		<path class="st0" d="M7.5,381.8c2.9,2.9,32.8,7.2,75.2,6.8"/>
+		<path class="st0" d="M504.2,381.8c-2.9,2.9-32.1,6.9-75.2,6.8"/>
+		<line class="st0" x1="456.4" y1="375.3" x2="456.9" y2="115.8"/>
+		<path class="st0" d="M54.8,116.3c0-6.3,5.9-11.3,13.3-11.3"/>
+		<line class="st0" x1="54.8" y1="116.3" x2="54.8" y2="375.8"/>
+		<path class="st0" d="M54.8,375.5c0,2.1,1.7,3.9,3.9,3.9"/>
+		<path class="st0" d="M456.4,375c0,2.1-1.7,3.9-3.9,3.9"/>
+		<path class="st0" d="M456.9,116.1c0-6.1-6-11.1-13.5-11.1"/>
+		<line class="st0" x1="61.5" y1="375.5" x2="449.2" y2="375"/>
+		<path class="st0" d="M58.6,370.7c0,2.7,1.5,4.8,3.4,4.8"/>
+		<path class="st0" d="M452.6,370.2c0,2.7-1.5,4.8-3.4,4.8"/>
+		<path class="st0" d="M452.6,116.6c0-4.5-5-8.2-11.1-8.2"/>
+		<path class="st0" d="M58.6,117.1c0-4.8,4.7-8.7,10.6-8.7"/>
+		<line class="st0" x1="452.6" y1="116.6" x2="452.6" y2="370.2"/>
+		<line class="st0" x1="208.1" y1="379.4" x2="208.1" y2="381.3"/>
+		<line class="st0" x1="303.1" y1="379.4" x2="303.1" y2="381.3"/>
+		<line class="st0" x1="230.8" y1="382.3" x2="283.3" y2="382.3"/>
+		<path class="st0" d="M303.1,381.3c0,0.5-8.8,1-19.8,1"/>
+		<path class="st0" d="M208.1,381.3c0,0.5,10.1,1,22.7,1"/>
+	</g>
+</switch>
+</svg>
