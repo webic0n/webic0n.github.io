@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>GreenMaster</title>
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -14,10 +15,10 @@
                     <a class="logo" href="#"><img src="img/1827119.png" alt="#"></a>
                     <div class="cell">
                         <ul class="nomer_list">
-                            <li class="nomer_item">+38(093)538-83-85</li>
-                            <li class="nomer_item">+38(097)909-90-71</li>
+                            <li class="nomer_item"><a href="tel:+380935388385">+38(093)538-83-85</a></li>
+                            <li class="nomer_item"><a href="tel:+380979099071">+38(097)909-90-71</a></li>
                         </ul>
-                        <a class="button" href="#">Заказать звонок</a>
+                        <a class="button popup-with-form" href="#form-callback">Заказать звонок</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +37,19 @@
                 </div>
             </div>
         </section>
-
+        <form class="zoom-anim-dialog mfp-hide" id="form-callback">
+                <div class="cell_zvon">
+                    <p class="cell_zvon__form">Заполните форму и мы свяжимся с Вами,чтобы ответить на все вопросы!</p>
+                    <form action="#">
+                        <ul class="list_cell_zvon">
+                            <li class="cell_zvon_item"><input type="text" class="text_input telefon" name="telefon" required autocomplete="off" placeholder="Ваш телефон"></li>
+                            <li class="cell_zvon_item"><input type="text" class="text_input gmail" name="gmail" required placeholder="Ваш e-mail"></li>
+                            <div class="button__form"><a class="button" href="#">Позвоните мне</a></div>
+                            <p class="text__cell_zvon_item">Ваши контактные данные в безопастности и не будут переданы третьим лицам!</p>
+                        </ul>
+                    </form>
+                </div>
+        </form>
         <section class="content_zadachi" style="background-image:url(img/bg-3.jpg);">
             <div class="zadachi">
                 <div class="text_content">
@@ -61,9 +74,8 @@
                         </div>
 
                     </div>
-
                 </div>
-                <div class="content__border_button"><a class="button" href="#">Заказать консультацию</a> </div>
+                <div class="content__border_button"><a class="button popup-with-form" href="#form-callback">Заказать консультацию</a> </div>
             </div>
         </section>
             <section class="content_gotovprojekt" style="background-image:url(img/bg-2.jpg); box-shadow:0 0 0 520px rgba(0, 0, 0, 0.2) inset;">
@@ -199,7 +211,7 @@
         <section class="content_otziv" style="background-image:url(img/bg-2.jpg); box-shadow:0 0 0 460px rgba(0, 0, 0, 0.2) inset;">
             <div class="otziv">
                 <div class="text_content">
-                    <h2 class="h2">Отзыввы наших клиентов
+                    <h2 class="h2">Отзывы наших клиентов
                         <p class="bord white"></p></h2>
                 </div>
                 <div class="slide_projekt_otziv">
@@ -234,11 +246,11 @@
                 </div>
                 <div class="contact_text">
                     <ul class="contact__text_list">
-                        <li class="contact__text_item">+38(093)538-83-85</li>
-                        <li class="contact__text_item">+38(097)909-90-71</li>
+                        <li class="contact__text_item"><a href="tel:+380935388385">+38(093)538-83-85</a></li>
+                        <li class="contact__text_item"><a href="tel:+380979099071">+38(097)909-90-71</a></li>
                         <li class="contact__text_item">info@fuksia.com.ua</li>
                         <li class="contact__text_item">Работаем с 8:55 до 19:05</li>
-                        <li class="contact__text_item"><a class="button" href="#">Отправить заявку</a></li>
+                        <li class="contact__text_item"><a class="button popup-with-form" href="#form-callback">Отправить заявку</a></li>
                         <li class="contact__text_item">Украина,Киев,улица Петра Дегтяренко,33</li>
                     </ul>
                 </div>
